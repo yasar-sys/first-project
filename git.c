@@ -17,6 +17,7 @@ printf("%d * 7 = %d\n",v,v*7);
 printf("%d * 8 = %d\n",v,v*8);
 printf("%d * 9 = %d\n",v,v*9);
 printf("%d * 10 = %d\n",v,v*10);
+printf("%d * 11 = %d\n",v,v*11);
 
     return 0;
 }
