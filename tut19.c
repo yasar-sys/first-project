@@ -5,7 +5,7 @@
 
 // }
 
-// void prinstar(int n)
+// void printstar(int n)
 // {
 //     for (int i = 0; i < n; i++)
 //     {
@@ -15,19 +15,28 @@
 // }
 
 
-int takenumber()
+// int takenumber()
+// {
+
+// int i;
+// printf("enter a number\n");
+// scanf("%d\n", & i);
+// return i;
+
+//}
+
+void myhobby()
 {
 
-int i;
-printf("enter a number\n");
-scanf("%d", & i);
-return i;
+    printf ("my hobby is playing football");
 
 
 }
+
 int main()
+
 {
-int c;
+//int c;
 //  int a,b,c;
 //  a= 9;
 //  b= 87;
@@ -36,10 +45,13 @@ int c;
 
 // return 0;
 
-c = takenumber();
-printf("print the value%d\n",c);
+// c = takenumber();
+// printf("print the value%d\n",c);
 
-return 0;
+// return 0;
+printf("what is your hobby?");
+myhobby();
+
 
 }
 
