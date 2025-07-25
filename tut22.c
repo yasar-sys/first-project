@@ -62,14 +62,32 @@ label:
 
     printf("Choose 0 to exit or any number to continue: ");
     scanf("%d", &choose);
-    if (choose == 0)
+
+    switch (choose)
     {
-        printf("See you next time\n");
-    }
-    else
-    {
+    case 0:
+        printf("see u next time");
+        break;
+
+    default:
         goto label;
     }
+
+
+//  if (choose == 0)
+//     {
+//         printf("See you next time\n");
+//     }
+//     else
+//     {
+//         goto label;
+//     }
+
+
+
+
+
+
 
     return 0;
 }
