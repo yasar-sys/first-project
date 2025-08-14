@@ -1,13 +1,14 @@
 #include<stdio.h>
-void changevalue(int* address)
+void changevalue(int* x , int* y)
 {
- *address = 7;
+ *x = *x + *y ;
+ *y = (*x - *y) - *y ;
 }
 int main()
 {
-    int a = 4 , b = 5;
-    printf("the value of a now is %d\n", a);
-    changevalue(&a);
-    printf("the value of a now is %d\n",a);
+    int a = 4 , b = 3;
+    printf("the value of a,b is %d %d\n", a,b);
+     changevalue(&a,&b);
+    printf("the value of a,b now is %d %d\n",a,b);
     return 0;
 }
